@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.first-header-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text-in-fist-header a {
+
+    color: white;
+}
+
+.fist-line-header-text a {
+    text-decoration: none;
+}
+
+
+.second-text-in-header {}
+
+.header {
+    background: #1d1d1d;
+    justify-content: center;
+
+}
+
+.second-header {
+    background: #1d1d1d;
+}
+
+.icons {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.test {
+    align-items: center;
+}
+
+.text-in-main {
+    text-align: center;
+}
+
+.botton-design button {
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0.2rem;
+    justify-content: center;
+    font-size: 12px;
+    margin: 5px;
+    min-width: 43rem;
+}
+
+
+
+
+
+
+/*
+body {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+header {}
+
+.first-header-background {
+
+    background-color: rgb(34, 30, 30);
+    height: 60px;
+    margin: 0;
+
+}
+
+.f {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+
+.linegap {
+    line-height: 0;
+}
+
+.header-icon {
+    letter-spacing: 50px;
+}
+
+
+
+/*
+body {
+
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header {}
+
+.first-header-background {
+
+    background-color: rgb(34, 30, 30);
+
+    height: 40px;
+}
+
+.f {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+
+.linegap {
+    line-height: 0;
+}
+
+.header-icon {
+    letter-spacing: 50px;
+}
+
+*/
