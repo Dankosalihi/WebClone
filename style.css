@@ -3,10 +3,6 @@
 
 }
 
-html {
-    padding: 0;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -69,6 +65,9 @@ main {
 
 .text-in-main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botton-design button {
@@ -86,96 +85,101 @@ main {
     min-width: 43rem;
 }
 
-.picsize {}
+.testar img {
+    width: 300px;
+    height: auto;
 
-.category-links {
-    align-items: center;
+}
+
+
+
+.list li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.pic {
+    text-align: center;
+}
+
+.infinite-text {
+    padding: 24px 16px;
+    text-align: center;
+}
+
+.infinite-botton {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 3.4375rem 0;
+    padding-left: 40px;
+
+}
+
+.footer-ua-logo {
+    width: 130%;
+    height: 9px;
+
+}
+
+.text-in-footer {
+    padding-top: 20px;
+}
+
+.detest {
+    margin-bottom: 10px;
+}
+
+.signup {}
+
+.danijel {
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+}
+
+.footer-run-logo img {
+    padding-top: 40px;
+    width: 50px;
+    height: auto;
+}
+
+.imgcontainer {
+    display: flex;
+}
+
+.imgcontainer img {
+    width: 55px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.order-info {
+    display: flex;
+    text-align: right;
     padding: 10px;
 }
 
-
-
-
-
-
-/*
-body {
-
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-p {
-    margin: 0;
-}
-
-hr {
-    margin: 0;
-}
-
-header {}
-
-.first-header-background {
-
-    background-color: rgb(34, 30, 30);
-    height: 60px;
-    margin: 0;
-
-}
-
-.f {
-    text-align: center;
-    padding-top: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-size: small;
-
-}
-
-.linegap {
-    line-height: 0;
-}
-
-.header-icon {
-    letter-spacing: 50px;
-}
-
-
-
-/*
-body {
-
-    box-sizing: border-box;
-    margin: auto;
-}
-
-header {}
-
-.first-header-background {
-
-    background-color: rgb(34, 30, 30);
-
+.footer-info button {
+    width: 100%;
     height: 40px;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    color: #333;
 }
 
-.f {
-    text-align: center;
-    padding-top: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-size: small;
-
+.icons-padding i {
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-left: 12px;
 }
 
-.linegap {
-    line-height: 0;
+.icon-to-black img {
+    width: 25px;
+    height: auto;
 }
-
-.header-icon {
-    letter-spacing: 50px;
-}
-
-*/
