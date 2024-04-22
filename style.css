@@ -4,7 +4,17 @@
 }
 
 body {
-    padding: 0;
+    padding: 0px;
+    margin: 0;
+}
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+
+}
+
+hr {
     margin: 0;
 }
 
@@ -12,19 +22,19 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 1px;
-    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .text-in-fist-header a {
-
     color: white;
 }
 
 .fist-line-header-text a {
     text-decoration: none;
+    font-size: large;
 }
 
 
@@ -54,13 +64,10 @@ body {
 }
 
 main {
+    padding-top: 135px;
     display: flex;
     justify-content: center;
 
-}
-
-.test {
-    align-items: center;
 }
 
 .text-in-main {
@@ -68,7 +75,30 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
+
+.text-style-in-main h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.text-style-in-main p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.text-style-in-main h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-display: inherit;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+
 
 .botton-design button {
     background-color: #1d1d1d;
@@ -81,11 +111,29 @@ main {
     border-radius: 0.2rem;
     justify-content: center;
     font-size: 12px;
-    margin: 5px;
-    min-width: 43rem;
+    width: auto;
+    min-width: 90%;
+    max-width: 90%;
 }
 
-.testar img {
+.image-max-sixe img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.headline-over-category-img {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 55px;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: large;
+
+
+
+}
+
+.category-img img {
     width: 300px;
     height: auto;
 
@@ -95,16 +143,50 @@ main {
 
 .list li {
     display: inline-block;
-    padding: 10px;
-    text-align: center;
+    padding-right: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+
 }
 
-.pic {
-    text-align: center;
+.link-color a {
+    color: black;
+    font-size: small;
 }
 
-.infinite-text {
+
+.infinite-text p {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 24px 16px;
+    text-align: center;
+    margin-top: 20;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.pic img {
+    display: block;
+    margin: auto;
+
+
+
+
+}
+
+.infinite-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 24px 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.infinite-last-text p {
+
+    margin: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -115,32 +197,49 @@ main {
 
 footer {
     background-color: #f0f0f0;
-    padding: 3.4375rem 0;
+    padding-top: 50px;
     padding-left: 40px;
 
 }
 
-.footer-ua-logo {
-    width: 130%;
-    height: 9px;
+.footer-ua-logo img {
+    display: block;
+    width: 130px;
+    height: auto;
+    margin-left: 4px;
 
 }
 
 .text-in-footer {
-    padding-top: 20px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
-.detest {
-    margin-bottom: 10px;
+.sign-up-text-in-footer {
+    margin: 0;
+    font-size: x-small;
+
 }
 
-.signup {}
 
-.danijel {
-    width: 100%;
+.email-input input {
+    width: 95%;
     height: 50px;
+    border: 1px solid #6d6565;
     background-color: #f0f0f0;
 }
+
+.email-input label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    background-color: #f0f0f0;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+
 
 .footer-run-logo img {
     padding-top: 40px;
@@ -169,17 +268,23 @@ footer {
     height: 40px;
     border: none;
     font-size: 16px;
+    padding: 20px 20px;
     text-align: left;
     color: #333;
 }
 
-.icons-padding i {
-    padding-top: 6px;
-    padding-right: 20px;
-    padding-left: 12px;
+.icon-to-black img {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
 }
 
-.icon-to-black img {
-    width: 25px;
-    height: auto;
+.icon-to-black i {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.bottom-of-page {
+    margin-top: 40px;
 }
