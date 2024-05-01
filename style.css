@@ -18,6 +18,7 @@ hr {
     margin: 0;
 }
 
+
 .first-header-div {
     display: flex;
     justify-content: center;
@@ -287,4 +288,14 @@ footer {
 
 .bottom-of-page {
     margin-top: 40px;
+}
+
+/*
+Tablet
+*/
+@media (min-width: 768px) {
+    .hide-on-big-screen {
+        display: none;
+    }
+
 }
