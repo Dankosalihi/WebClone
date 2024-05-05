@@ -1,0 +1,174 @@
+@media (min-width: 768px) {
+    .desktop-header {
+        width: 100%;
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .desktop-container {
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+
+    }
+
+    .desktop-logo-img {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container span {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .icon-next-to-new img {
+        width: auto;
+        height: 20px;
+        margin-left: 7px;
+        margin-bottom: 0;
+    }
+
+    .icons-after-search-desktop {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .icons-after-search-desktop .icon {
+        margin-right: 10px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+
+
+    .header {
+        align-items: center;
+    }
+
+    .desktop-seach-in-header {
+        outline: 0;
+        border-width: 0 0 2px;
+        background: #1d1d1d;
+        color: rgb(137, 127, 127);
+        padding-right: 0;
+        font-size: medium;
+        margin-right: auto;
+
+    }
+
+
+    .desktop-shipping {
+        color: white;
+        font-size: small;
+    }
+
+    .desktop-shipping-header {
+        display: flex;
+    }
+
+    main {
+        padding-top: 115px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .undisplay-when-desktop {
+        display: none;
+    }
+
+    .display-projectrock-collection {
+        position: relative;
+        padding-top: 11px;
+
+    }
+
+    .projectrock-text-desktop {
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 20px;
+        top: 15px;
+
+        max-width: 225px;
+        text-align: left;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .projectrock-text-desktop h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+
+    }
+
+    .projectrock-botton-desktop {
+        margin-top: 15px;
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        justify-content: center;
+        width: 200px;
+        height: 50px;
+
+
+    }
+
+    .category-img img {
+        width: 250px;
+        height: auto;
+    }
+
+    .headline-over-category-img {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding-left: 180px;
+        padding-top: 50px;
+        margin-bottom: 0;
+        font-size: xx-large;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .desktop-header {
+        display: none;
+    }
+
+    .desktop-shipping {
+        display: none;
+    }
+
+    .display-projectrock-collection {
+        display: none;
+    }
+
+
+
+}

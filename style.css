@@ -11,6 +11,7 @@ body {
 .fixed-header {
     position: fixed;
     width: 100%;
+    z-index: 1000;
 
 }
 
@@ -128,14 +129,12 @@ main {
     padding-left: 55px;
     padding-top: 50px;
     margin-bottom: 0;
-    font-size: large;
-
-
+    font-size: x-large;
 
 }
 
 .category-img img {
-    width: 300px;
+    width: 280px;
     height: auto;
 
 }
@@ -290,9 +289,6 @@ footer {
     margin-top: 40px;
 }
 
-/*
-Tablet
-*/
 @media (min-width: 768px) {
     .hide-on-big-screen {
         display: none;

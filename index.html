@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="desktop.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -14,8 +13,8 @@
 <body>
     <header class="header fixed-header">
         <div class="first-header-div">
-            <div class="tablet-shipping">
-                <div class="table-shipping-header swe-flag">
+            <div class="desktop-shipping">
+                <div class="desktop-shipping-header">
                     <span> FREE SHIPPING TO PICK-UP POINTS | 60 DAYS RETURNS</span>
                 </div>
             </div>
@@ -28,20 +27,22 @@
         </div>
         <div>
             <hr>
-            <div class="tablet-header table-container">
+            <div class="desktop-header desktop-container">
                 <img class="tablet-logo-img"
                     src="https://www.underarmour.eu/on/demandware.static/Sites-EU-Site/-/default/dw4ea1b684/images/logo.svg"
                     alt="">
-                <div class="container desktop-header">
-                    <span>New & Featured</span>
+                <div class="container desktop-header icon-next-to-new">
+                    <span>New & Featured <img
+                            src="https://static.vecteezy.com/system/resources/previews/001/188/566/non_2x/fire-png.png"
+                            alt=""></span>
                     <span>Shoes</span>
                     <span>Men</span>
                     <span>Women</span>
                     <span>Kids</span>
                     <span>Outlet</span>
                 </div>
-                <input class="table-seach-in-header" type="text" value="Search UA">
-                <div class="icons-after-search-tablet">
+                <input class="desktop-seach-in-header" type="text" value="Search UA">
+                <div class="icons-after-search-desktop">
                     <div class="icon">
                         <i class="material-icons icons-in-header">favorite</i>
 
@@ -69,8 +70,8 @@
     </header>
     <!--asaaaaaaaa-->
     <main>
-        <div class="botton-design">
-            <div class="text-in-main image-max-sixe text-style-in-main">
+        <div>
+            <div class="text-in-main image-max-sixe text-style-in-main botton-design undisplay-when-desktop">
                 <img src="https://underarmour.scene7.com/is/image/Underarmour/SS24_Q2_TRN_ProjectRock_Underground_Site_2_1_COG?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&"
                     alt="">
                 <h3>The New Project Rock Collection</h3>
@@ -80,6 +81,18 @@
                 <button>Shop Men</button>
                 <br>
                 <button>Shop Women</button>
+            </div>
+            <div class="display-projectrock-collection image-max-sixe img">
+                <img src="https://underarmour.scene7.com/is/image/Underarmour/SS24_Q2_TRN_ProjectRock_Underground_Site_2_1_COG?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&"
+                    alt="">
+                <div class="projectrock-text-desktop">
+                    <h3>The New Project Rock Collection</h3>
+                    <h1>EVERY SIDE OF STRONG</h1>
+                    <p>We make each other stronger. This collection is built to lift you and your crew.</p>
+                    <button class="projectrock-botton-desktop">Shop Men</button>
+                    <br>
+                    <button class="projectrock-botton-desktop">Shop Women</button>
+                </div>
             </div>
             <h2 class="headline-over-category-img">Put Our Newest Gear To Work</h2>
             <div class="category-img text-in-main">
@@ -123,7 +136,6 @@
                     </li>
                 </ul>
             </div>
-
             <div>
                 <div class="pic">
                     <img src="https://underarmour.scene7.com/is/content/Underarmour/SS24_WMN_Infinity_Bra_Homepage_Hero_Mobile_1_1_2?qlt=75&fmt=jpg&wid=768&op_sharpen=1&"
@@ -141,7 +153,7 @@
                         the perfect fit for you.</p>
                 </div>
                 <div class="infinite-botton botton-design">
-                    <button>Shop now</button>
+                    <button class="infinity-button-desktop">Shop now</button>
                 </div>
             </div>
         </div>
@@ -216,68 +228,3 @@
 </body>
 
 </html>
-
-
-
-<!--
-
-     <div>
-            <div class="category-links picsize">
-                <div>
-                    <img src="https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/Search/676/334114.jpg?im=Resize,width=350"
-                        alt="">
-                    <div>
-                        <p><a href="index.shopmen">Shop Men</a></p>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://underarmour.scene7.com/is/image/Underarmour/SS24_Q2_NewArrivals_Women_1_1?qlt=75&fmt=jpg&scl=1&"
-                        alt="">
-                    <div>
-                        <p><a href="index.shopmen">Shop Woman</a></p>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://underarmour.scene7.com/is/image/Underarmour/SS24_RUN_Velociti_Elite_Site_1_1_COG?qlt=75&fmt=jpg&scl=1&"
-                        alt="">
-                    <div>
-                        <p><a href="index.shopmen">Shop Shoes</a></p>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://underarmour.scene7.com/is/image/Underarmour/SS24_Unstoppable_Kids_NewArrivals_1_1?qlt=75&fmt=jpg&scl=1&"
-                        alt="">
-                    <div>
-                        <p><a href="index.shopmen">Shop Kids</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-
-
-
-<!--
-    <body>
-    <Header>
-        <div class="f linegap first-header-background">
-            <p>FREE SHIPPING TO PICK-UP POINTS</p>
-            <p>60 DAYS RETURNS</p>
-            <div>
-                <hr>
-                <nav class="header-icon first-header-background">
-                    <span>🍔</span>
-                    <span>🍔</span>
-                </nav>
-            </div>
-        </div>
-
-
-
-
-
-    </Header>
-</body>
-
-</html>
--->
